@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+   <form id="form">
+    <h2>Create in account</h2>
+    <div class="form-box">
+        <input type="text" name="name" placeholder="user name">
+    </div>
+    <div class="form-box">
+        <input type="email" name="email" placeholder="enter email">
+    </div>
+    </div>
+    <div class="form-box">
+        <input type="password"
+         name="password" 
+         placeholder="enter password">
+    </div>
+    <div class="form-box">
+        <input type="number" name="number" placeholder="number">
+    </div>
+    <div class="form-box">
+        <select name="gender" id="gender">
+            <option value="" disabled selected>Enter your gender</option>
+            <option value="male">Male</option>
+            <option value="female" >female</option>
+            <option value="other" >other</option>
+        </select>
+    </div>
+    <button class="button" id="ShowPassword">ShowPassword</button>
+    <button class="sumbit" id="sumbitForm">Send Form</button>
+   </form>
+
+   <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script> 
+    <script src="s.js"></script>
+</body>
+</html>
